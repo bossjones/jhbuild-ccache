@@ -1,0 +1,4 @@
+/tmp/ffconf.G1lLQfSC.c: In function 'main':
+/tmp/ffconf.G1lLQfSC.c:4:24: warning: cast from pointer to integer of different size [-Wpointer-to-int-cast]
+ int main(void){ return (int) foo; }
+                        ^
