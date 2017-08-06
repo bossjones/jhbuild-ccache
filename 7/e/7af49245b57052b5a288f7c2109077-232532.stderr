@@ -1,0 +1,9 @@
+[01m[Klibavcodec/frame_thread_encoder.c:[m[K In function ‘[01m[Kworker[m[K’:
+[01m[Klibavcodec/frame_thread_encoder.c:92:13:[m[K [01;35m[Kwarning: [m[K‘[01m[Kav_dup_packet[m[K’ is deprecated [-Wdeprecated-declarations]
+             av_dup_packet(pkt);
+[01;32m[K             ^[m[K
+In file included from [01m[Klibavcodec/frame_thread_encoder.h:24:0[m[K,
+                 from [01m[Klibavcodec/frame_thread_encoder.c:21[m[K:
+[01m[Klibavcodec/avcodec.h:4017:5:[m[K [01;36m[Knote: [m[Kdeclared here
+ int av_dup_packet(AVPacket *pkt);
+[01;32m[K     ^[m[K

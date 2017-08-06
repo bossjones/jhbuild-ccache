@@ -1,0 +1,10 @@
+[01m[Klibavcodec/xface.c:[m[K In function ‘[01m[Kff_xface_generate_face[m[K’:
+[01m[Klibavcodec/xface.c:318:27:[m[K [01;35m[Kwarning: [m[Kassuming signed overflow does not occur when assuming that (X - c) > X is always false [-Wstrict-overflow]
+                     if (l >= i && m == j)
+[01;32m[K                           ^[m[K
+[01m[Klibavcodec/xface.c:318:27:[m[K [01;35m[Kwarning: [m[Kassuming signed overflow does not occur when assuming that (X - c) > X is always false [-Wstrict-overflow]
+[01m[Klibavcodec/xface.c:318:27:[m[K [01;35m[Kwarning: [m[Kassuming signed overflow does not occur when assuming that (X - c) > X is always false [-Wstrict-overflow]
+[01m[Klibavcodec/xface.c:318:27:[m[K [01;35m[Kwarning: [m[Kassuming signed overflow does not occur when assuming that (X + c) >= X is always true [-Wstrict-overflow]
+[01m[Klibavcodec/xface.c:318:27:[m[K [01;35m[Kwarning: [m[Kassuming signed overflow does not occur when assuming that (X + c) >= X is always true [-Wstrict-overflow]
+[01m[Klibavcodec/xface.c:318:27:[m[K [01;35m[Kwarning: [m[Kassuming signed overflow does not occur when assuming that (X + c) >= X is always true [-Wstrict-overflow]
+[01m[Klibavcodec/xface.c:318:27:[m[K [01;35m[Kwarning: [m[Kassuming signed overflow does not occur when assuming that (X + c) >= X is always true [-Wstrict-overflow]

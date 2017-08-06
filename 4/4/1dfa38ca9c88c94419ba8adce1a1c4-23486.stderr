@@ -1,0 +1,4 @@
+conftest.c: In function 'main':
+conftest.c:141:19: warning: null argument where non-null required (argument 1) [-Wnonnull]
+ open(0, O_DIRECTORY, 0);
+                   ^

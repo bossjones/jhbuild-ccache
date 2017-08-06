@@ -1,0 +1,50 @@
+[01m[Klibavcodec/snowenc.c:[m[K In function ‘[01m[Kencode_frame[m[K’:
+[01m[Klibavcodec/snowenc.c:1646:5:[m[K [01;35m[Kwarning: [m[K‘[01m[Kcoded_frame[m[K’ is deprecated [-Wdeprecated-declarations]
+     av_frame_unref(avctx->coded_frame);
+[01;32m[K     ^[m[K
+In file included from [01m[Klibavcodec/snowenc.c:25:0[m[K:
+[01m[Klibavcodec/avcodec.h:2945:42:[m[K [01;36m[Knote: [m[Kdeclared here
+     attribute_deprecated AVFrame *coded_frame;
+[01;32m[K                                          ^[m[K
+[01m[Klibavcodec/snowenc.c:1647:5:[m[K [01;35m[Kwarning: [m[K‘[01m[Kcoded_frame[m[K’ is deprecated [-Wdeprecated-declarations]
+     ret = av_frame_ref(avctx->coded_frame, s->current_picture);
+[01;32m[K     ^[m[K
+In file included from [01m[Klibavcodec/snowenc.c:25:0[m[K:
+[01m[Klibavcodec/avcodec.h:2945:42:[m[K [01;36m[Knote: [m[Kdeclared here
+     attribute_deprecated AVFrame *coded_frame;
+[01;32m[K                                          ^[m[K
+[01m[Klibavcodec/snowenc.c:1677:9:[m[K [01;35m[Kwarning: [m[K‘[01m[Kme_method[m[K’ is deprecated [-Wdeprecated-declarations]
+         s->m.me_method= s->avctx->me_method;
+[01;32m[K         ^[m[K
+In file included from [01m[Klibavcodec/snowenc.c:25:0[m[K:
+[01m[Klibavcodec/avcodec.h:1759:37:[m[K [01;36m[Knote: [m[Kdeclared here
+     attribute_deprecated int me_method;
+[01;32m[K                                     ^[m[K
+[01m[Klibavcodec/snowenc.c:1879:5:[m[K [01;35m[Kwarning: [m[K‘[01m[Kframe_bits[m[K’ is deprecated [-Wdeprecated-declarations]
+     avctx->frame_bits = s->m.frame_bits;
+[01;32m[K     ^[m[K
+In file included from [01m[Klibavcodec/snowenc.c:25:0[m[K:
+[01m[Klibavcodec/avcodec.h:2684:9:[m[K [01;36m[Knote: [m[Kdeclared here
+     int frame_bits;
+[01;32m[K         ^[m[K
+[01m[Klibavcodec/snowenc.c:1880:5:[m[K [01;35m[Kwarning: [m[K‘[01m[Kmv_bits[m[K’ is deprecated [-Wdeprecated-declarations]
+     avctx->mv_bits = s->m.mv_bits;
+[01;32m[K     ^[m[K
+In file included from [01m[Klibavcodec/snowenc.c:25:0[m[K:
+[01m[Klibavcodec/avcodec.h:2666:9:[m[K [01;36m[Knote: [m[Kdeclared here
+     int mv_bits;
+[01;32m[K         ^[m[K
+[01m[Klibavcodec/snowenc.c:1881:5:[m[K [01;35m[Kwarning: [m[K‘[01m[Kmisc_bits[m[K’ is deprecated [-Wdeprecated-declarations]
+     avctx->misc_bits = s->m.misc_bits;
+[01;32m[K     ^[m[K
+In file included from [01m[Klibavcodec/snowenc.c:25:0[m[K:
+[01m[Klibavcodec/avcodec.h:2680:9:[m[K [01;36m[Knote: [m[Kdeclared here
+     int misc_bits;
+[01;32m[K         ^[m[K
+[01m[Klibavcodec/snowenc.c:1882:5:[m[K [01;35m[Kwarning: [m[K‘[01m[Kp_tex_bits[m[K’ is deprecated [-Wdeprecated-declarations]
+     avctx->p_tex_bits = s->m.p_tex_bits;
+[01;32m[K     ^[m[K
+In file included from [01m[Klibavcodec/snowenc.c:25:0[m[K:
+[01m[Klibavcodec/avcodec.h:2672:9:[m[K [01;36m[Knote: [m[Kdeclared here
+     int p_tex_bits;
+[01;32m[K         ^[m[K

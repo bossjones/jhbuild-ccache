@@ -1,0 +1,139 @@
+[01m[Klibavformat/ffmdec.c:[m[K In function ‘[01m[Kffm_close[m[K’:
+[01m[Klibavformat/ffmdec.c:253:9:[m[K [01;35m[Kwarning: [m[K‘[01m[Krc_eq[m[K’ is deprecated [-Wdeprecated-declarations]
+         av_freep(&s->streams[i]->codec->rc_eq);
+[01;32m[K         ^[m[K
+In file included from [01m[Klibavformat/avformat.h:318:0[m[K,
+                 from [01m[Klibavformat/ffmdec.c:30[m[K:
+[01m[K./libavcodec/avcodec.h:2515:17:[m[K [01;36m[Knote: [m[Kdeclared here
+     const char *rc_eq;
+[01;32m[K                 ^[m[K
+[01m[Klibavformat/ffmdec.c:[m[K In function ‘[01m[Kffm2_read_header[m[K’:
+[01m[Klibavformat/ffmdec.c:387:13:[m[K [01;35m[Kwarning: [m[K‘[01m[Krc_eq[m[K’ is deprecated [-Wdeprecated-declarations]
+             codec->rc_eq = av_strdup(rc_eq_buf);
+[01;32m[K             ^[m[K
+In file included from [01m[Klibavformat/avformat.h:318:0[m[K,
+                 from [01m[Klibavformat/ffmdec.c:30[m[K:
+[01m[K./libavcodec/avcodec.h:2515:17:[m[K [01;36m[Knote: [m[Kdeclared here
+     const char *rc_eq;
+[01;32m[K                 ^[m[K
+[01m[Klibavformat/ffmdec.c:398:13:[m[K [01;35m[Kwarning: [m[K‘[01m[Kmpeg_quant[m[K’ is deprecated [-Wdeprecated-declarations]
+             codec->mpeg_quant = avio_rb32(pb);
+[01;32m[K             ^[m[K
+In file included from [01m[Klibavformat/avformat.h:318:0[m[K,
+                 from [01m[Klibavformat/ffmdec.c:30[m[K:
+[01m[K./libavcodec/avcodec.h:1851:9:[m[K [01;36m[Knote: [m[Kdeclared here
+     int mpeg_quant;
+[01;32m[K         ^[m[K
+[01m[Klibavformat/ffmdec.c:400:13:[m[K [01;35m[Kwarning: [m[K‘[01m[Kme_method[m[K’ is deprecated [-Wdeprecated-declarations]
+             codec->me_method = avio_rb32(pb);
+[01;32m[K             ^[m[K
+In file included from [01m[Klibavformat/avformat.h:318:0[m[K,
+                 from [01m[Klibavformat/ffmdec.c:30[m[K:
+[01m[K./libavcodec/avcodec.h:1759:37:[m[K [01;36m[Knote: [m[Kdeclared here
+     attribute_deprecated int me_method;
+[01;32m[K                                     ^[m[K
+[01m[Klibavformat/ffmdec.c:403:13:[m[K [01;35m[Kwarning: [m[K‘[01m[Kframe_skip_cmp[m[K’ is deprecated [-Wdeprecated-declarations]
+             codec->frame_skip_cmp = avio_rb32(pb);
+[01;32m[K             ^[m[K
+In file included from [01m[Klibavformat/avformat.h:318:0[m[K,
+                 from [01m[Klibavformat/ffmdec.c:30[m[K:
+[01m[K./libavcodec/avcodec.h:2614:9:[m[K [01;36m[Knote: [m[Kdeclared here
+     int frame_skip_cmp;
+[01;32m[K         ^[m[K
+[01m[Klibavformat/ffmdec.c:404:13:[m[K [01;35m[Kwarning: [m[K‘[01m[Krc_buffer_aggressivity[m[K’ is deprecated [-Wdeprecated-declarations]
+             codec->rc_buffer_aggressivity = av_int2double(avio_rb64(pb));
+[01;32m[K             ^[m[K
+In file included from [01m[Klibavformat/avformat.h:318:0[m[K,
+                 from [01m[Klibavformat/ffmdec.c:30[m[K:
+[01m[K./libavcodec/avcodec.h:2537:11:[m[K [01;36m[Knote: [m[Kdeclared here
+     float rc_buffer_aggressivity;
+[01;32m[K           ^[m[K
+[01m[Klibavformat/ffmdec.c:407:13:[m[K [01;35m[Kwarning: [m[K‘[01m[Kcoder_type[m[K’ is deprecated [-Wdeprecated-declarations]
+             codec->coder_type = avio_rb32(pb);
+[01;32m[K             ^[m[K
+In file included from [01m[Klibavformat/avformat.h:318:0[m[K,
+                 from [01m[Klibavformat/ffmdec.c:30[m[K:
+[01m[K./libavcodec/avcodec.h:2576:9:[m[K [01;36m[Knote: [m[Kdeclared here
+     int coder_type;
+[01;32m[K         ^[m[K
+[01m[Klibavformat/ffmdec.c:412:13:[m[K [01;35m[Kwarning: [m[K‘[01m[Kscenechange_threshold[m[K’ is deprecated [-Wdeprecated-declarations]
+             codec->scenechange_threshold = avio_rb32(pb);
+[01;32m[K             ^[m[K
+In file included from [01m[Klibavformat/avformat.h:318:0[m[K,
+                 from [01m[Klibavformat/ffmdec.c:30[m[K:
+[01m[K./libavcodec/avcodec.h:2108:9:[m[K [01;36m[Knote: [m[Kdeclared here
+     int scenechange_threshold;
+[01;32m[K         ^[m[K
+[01m[Klibavformat/ffmdec.c:413:13:[m[K [01;35m[Kwarning: [m[K‘[01m[Kb_frame_strategy[m[K’ is deprecated [-Wdeprecated-declarations]
+             codec->b_frame_strategy = avio_rb32(pb);
+[01;32m[K             ^[m[K
+In file included from [01m[Klibavformat/avformat.h:318:0[m[K,
+                 from [01m[Klibavformat/ffmdec.c:30[m[K:
+[01m[K./libavcodec/avcodec.h:1830:9:[m[K [01;36m[Knote: [m[Kdeclared here
+     int b_frame_strategy;
+[01;32m[K         ^[m[K
+[01m[Klibavformat/ffmdec.c:[m[K In function ‘[01m[Kffm_read_header[m[K’:
+[01m[Klibavformat/ffmdec.c:579:13:[m[K [01;35m[Kwarning: [m[K‘[01m[Krc_eq[m[K’ is deprecated [-Wdeprecated-declarations]
+             codec->rc_eq = av_strdup(rc_eq_buf);
+[01;32m[K             ^[m[K
+In file included from [01m[Klibavformat/avformat.h:318:0[m[K,
+                 from [01m[Klibavformat/ffmdec.c:30[m[K:
+[01m[K./libavcodec/avcodec.h:2515:17:[m[K [01;36m[Knote: [m[Kdeclared here
+     const char *rc_eq;
+[01;32m[K                 ^[m[K
+[01m[Klibavformat/ffmdec.c:590:13:[m[K [01;35m[Kwarning: [m[K‘[01m[Kmpeg_quant[m[K’ is deprecated [-Wdeprecated-declarations]
+             codec->mpeg_quant = avio_rb32(pb);
+[01;32m[K             ^[m[K
+In file included from [01m[Klibavformat/avformat.h:318:0[m[K,
+                 from [01m[Klibavformat/ffmdec.c:30[m[K:
+[01m[K./libavcodec/avcodec.h:1851:9:[m[K [01;36m[Knote: [m[Kdeclared here
+     int mpeg_quant;
+[01;32m[K         ^[m[K
+[01m[Klibavformat/ffmdec.c:592:13:[m[K [01;35m[Kwarning: [m[K‘[01m[Kme_method[m[K’ is deprecated [-Wdeprecated-declarations]
+             codec->me_method = avio_rb32(pb);
+[01;32m[K             ^[m[K
+In file included from [01m[Klibavformat/avformat.h:318:0[m[K,
+                 from [01m[Klibavformat/ffmdec.c:30[m[K:
+[01m[K./libavcodec/avcodec.h:1759:37:[m[K [01;36m[Knote: [m[Kdeclared here
+     attribute_deprecated int me_method;
+[01;32m[K                                     ^[m[K
+[01m[Klibavformat/ffmdec.c:595:13:[m[K [01;35m[Kwarning: [m[K‘[01m[Kframe_skip_cmp[m[K’ is deprecated [-Wdeprecated-declarations]
+             codec->frame_skip_cmp = avio_rb32(pb);
+[01;32m[K             ^[m[K
+In file included from [01m[Klibavformat/avformat.h:318:0[m[K,
+                 from [01m[Klibavformat/ffmdec.c:30[m[K:
+[01m[K./libavcodec/avcodec.h:2614:9:[m[K [01;36m[Knote: [m[Kdeclared here
+     int frame_skip_cmp;
+[01;32m[K         ^[m[K
+[01m[Klibavformat/ffmdec.c:596:13:[m[K [01;35m[Kwarning: [m[K‘[01m[Krc_buffer_aggressivity[m[K’ is deprecated [-Wdeprecated-declarations]
+             codec->rc_buffer_aggressivity = av_int2double(avio_rb64(pb));
+[01;32m[K             ^[m[K
+In file included from [01m[Klibavformat/avformat.h:318:0[m[K,
+                 from [01m[Klibavformat/ffmdec.c:30[m[K:
+[01m[K./libavcodec/avcodec.h:2537:11:[m[K [01;36m[Knote: [m[Kdeclared here
+     float rc_buffer_aggressivity;
+[01;32m[K           ^[m[K
+[01m[Klibavformat/ffmdec.c:599:13:[m[K [01;35m[Kwarning: [m[K‘[01m[Kcoder_type[m[K’ is deprecated [-Wdeprecated-declarations]
+             codec->coder_type = avio_rb32(pb);
+[01;32m[K             ^[m[K
+In file included from [01m[Klibavformat/avformat.h:318:0[m[K,
+                 from [01m[Klibavformat/ffmdec.c:30[m[K:
+[01m[K./libavcodec/avcodec.h:2576:9:[m[K [01;36m[Knote: [m[Kdeclared here
+     int coder_type;
+[01;32m[K         ^[m[K
+[01m[Klibavformat/ffmdec.c:604:13:[m[K [01;35m[Kwarning: [m[K‘[01m[Kscenechange_threshold[m[K’ is deprecated [-Wdeprecated-declarations]
+             codec->scenechange_threshold = avio_rb32(pb);
+[01;32m[K             ^[m[K
+In file included from [01m[Klibavformat/avformat.h:318:0[m[K,
+                 from [01m[Klibavformat/ffmdec.c:30[m[K:
+[01m[K./libavcodec/avcodec.h:2108:9:[m[K [01;36m[Knote: [m[Kdeclared here
+     int scenechange_threshold;
+[01;32m[K         ^[m[K
+[01m[Klibavformat/ffmdec.c:605:13:[m[K [01;35m[Kwarning: [m[K‘[01m[Kb_frame_strategy[m[K’ is deprecated [-Wdeprecated-declarations]
+             codec->b_frame_strategy = avio_rb32(pb);
+[01;32m[K             ^[m[K
+In file included from [01m[Klibavformat/avformat.h:318:0[m[K,
+                 from [01m[Klibavformat/ffmdec.c:30[m[K:
+[01m[K./libavcodec/avcodec.h:1830:9:[m[K [01;36m[Knote: [m[Kdeclared here
+     int b_frame_strategy;
+[01;32m[K         ^[m[K

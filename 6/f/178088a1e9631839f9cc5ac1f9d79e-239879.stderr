@@ -1,0 +1,8 @@
+[01m[Klibswscale/input.c:944:157:[m[K [01;35m[Kwarning: [m[K‘[01m[Kplanar_rgb9le_to_a[m[K’ defined but not used [-Wunused-function]
+[01m[Klibswscale/input.c:944:614:[m[K [01;35m[Kwarning: [m[K‘[01m[Kplanar_rgb9be_to_a[m[K’ defined but not used [-Wunused-function]
+[01m[Klibswscale/input.c:945:159:[m[K [01;35m[Kwarning: [m[K‘[01m[Kplanar_rgb10le_to_a[m[K’ defined but not used [-Wunused-function]
+[01m[Klibswscale/input.c:945:622:[m[K [01;35m[Kwarning: [m[K‘[01m[Kplanar_rgb10be_to_a[m[K’ defined but not used [-Wunused-function]
+[01m[Klibswscale/input.c:946:159:[m[K [01;35m[Kwarning: [m[K‘[01m[Kplanar_rgb12le_to_a[m[K’ defined but not used [-Wunused-function]
+[01m[Klibswscale/input.c:946:622:[m[K [01;35m[Kwarning: [m[K‘[01m[Kplanar_rgb12be_to_a[m[K’ defined but not used [-Wunused-function]
+[01m[Klibswscale/input.c:947:159:[m[K [01;35m[Kwarning: [m[K‘[01m[Kplanar_rgb14le_to_a[m[K’ defined but not used [-Wunused-function]
+[01m[Klibswscale/input.c:947:622:[m[K [01;35m[Kwarning: [m[K‘[01m[Kplanar_rgb14be_to_a[m[K’ defined but not used [-Wunused-function]

@@ -1,0 +1,7 @@
+[01m[Klibswscale/slice.c:[m[K In function ‘[01m[Kff_init_slice_from_src[m[K’:
+[01m[Klibswscale/slice.c:178:56:[m[K [01;35m[Kwarning: [m[Kassignment discards ‘[01m[Kconst[m[K’ qualifier from pointer target type [-Wdiscarded-qualifiers]
+                 s->plane[i].line[start[i] - first + j] = src_[i] +  j * stride[i];
+[01;32m[K                                                        ^[m[K
+[01m[Klibswscale/slice.c:184:37:[m[K [01;35m[Kwarning: [m[Kassignment discards ‘[01m[Kconst[m[K’ qualifier from pointer target type [-Wdiscarded-qualifiers]
+                 s->plane[i].line[j] = src_[i] +  j * stride[i];
+[01;32m[K                                     ^[m[K

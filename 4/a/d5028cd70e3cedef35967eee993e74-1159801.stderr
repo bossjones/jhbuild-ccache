@@ -1,0 +1,4 @@
+scannerlexer.c: In function ‘yy_get_next_buffer’:
+scannerlexer.c:2468:44: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+  if ((int) ((yy_n_chars) + number_to_move) > YY_CURRENT_BUFFER_LVALUE->yy_buf_size) {
+                                            ^

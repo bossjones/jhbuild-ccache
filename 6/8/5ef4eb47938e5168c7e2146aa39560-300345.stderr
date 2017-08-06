@@ -1,0 +1,8 @@
+[01m[Klibavcodec/ffv1enc.c:[m[K In function ‘[01m[Kencode_frame[m[K’:
+[01m[Klibavcodec/ffv1enc.c:1292:5:[m[K [01;35m[Kwarning: [m[K‘[01m[Kcoded_frame[m[K’ is deprecated [-Wdeprecated-declarations]
+     avctx->coded_frame->pict_type = AV_PICTURE_TYPE_I;
+[01;32m[K     ^[m[K
+In file included from [01m[Klibavcodec/ffv1enc.c:35:0[m[K:
+[01m[Klibavcodec/avcodec.h:2945:42:[m[K [01;36m[Knote: [m[Kdeclared here
+     attribute_deprecated AVFrame *coded_frame;
+[01;32m[K                                          ^[m[K

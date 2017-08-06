@@ -1,0 +1,4 @@
+In file included from conftest.c:102:0:
+/usr/include/faad.h:32:9: note: #pragma message: please update faad2 include filename and function names!
+ #pragma message("please update faad2 include filename and function names!")
+         ^

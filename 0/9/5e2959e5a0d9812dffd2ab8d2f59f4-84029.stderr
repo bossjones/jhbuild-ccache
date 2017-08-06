@@ -1,0 +1,12 @@
+conftest.c:137:0: warning: "HAVE_OPUS" redefined
+ #define HAVE_OPUS /**/
+ ^
+conftest.c:136:0: note: this is the location of the previous definition
+ #define HAVE_OPUS 1
+ ^
+conftest.c:142:0: warning: "HAVE_GTK3" redefined
+ #define HAVE_GTK3 /**/
+ ^
+conftest.c:140:0: note: this is the location of the previous definition
+ #define HAVE_GTK3 1
+ ^

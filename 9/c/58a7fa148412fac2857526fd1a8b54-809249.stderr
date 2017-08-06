@@ -1,0 +1,115 @@
+espeak.c: In function ‘espeak_out’:
+espeak.c:287:7: warning: format ‘%d’ expects argument of type ‘int’, but argument 9 has type ‘gsize {aka long unsigned int}’ [-Wformat=]
+     GST_DEBUG ("[%p] size_to_play=%d", self, size_to_play);
+       ^
+espeak.c: In function ‘espeak_get_voices’:
+espeak.c:445:5: warning: ‘g_value_array_copy’ is deprecated: Use 'GArray' instead [-Wdeprecated-declarations]
+     return g_value_array_copy (espeak_voices);
+     ^
+In file included from /home/pi/jhbuild/include/glib-2.0/glib-object.h:35:0,
+                 from /home/pi/jhbuild/include/gstreamer-1.0/gst/gstenumtypes.h:7,
+                 from /home/pi/jhbuild/include/gstreamer-1.0/gst/gst.h:31,
+                 from espeak.c:21:
+/home/pi/jhbuild/include/glib-2.0/gobject/gvaluearray.h:73:14: note: declared here
+ GValueArray* g_value_array_copy      (const GValueArray *value_array);
+              ^
+espeak.c: In function ‘process’:
+espeak.c:500:15: warning: format ‘%d’ expects argument of type ‘int’, but argument 9 has type ‘gsize {aka long unsigned int}’ [-Wformat=]
+             GST_DEBUG ("[%p] context->text_offset=%d context->text_len=%d",
+               ^
+espeak.c:500:15: warning: format ‘%d’ expects argument of type ‘int’, but argument 10 has type ‘gsize {aka long unsigned int}’ [-Wformat=]
+espeak.c: In function ‘init’:
+espeak.c:566:9: warning: ‘g_mutex_new’ is deprecated [-Wdeprecated-declarations]
+         process_lock = g_mutex_new ();
+         ^
+In file included from /home/pi/jhbuild/include/glib-2.0/glib.h:107:0,
+                 from espeak.c:20:
+/home/pi/jhbuild/include/glib-2.0/glib/deprecated/gthread.h:277:10: note: declared here
+ GMutex *        g_mutex_new             (void);
+          ^
+espeak.c:567:9: warning: ‘g_cond_new’ is deprecated [-Wdeprecated-declarations]
+         process_cond = g_cond_new ();
+         ^
+In file included from /home/pi/jhbuild/include/glib-2.0/glib.h:107:0,
+                 from espeak.c:20:
+/home/pi/jhbuild/include/glib-2.0/glib/deprecated/gthread.h:281:9: note: declared here
+ GCond *         g_cond_new              (void);
+         ^
+espeak.c:568:9: warning: ‘g_thread_create’ is deprecated: Use 'g_thread_new' instead [-Wdeprecated-declarations]
+         process_tid = g_thread_create (process, NULL, FALSE, NULL);
+         ^
+In file included from /home/pi/jhbuild/include/glib-2.0/glib.h:107:0,
+                 from espeak.c:20:
+/home/pi/jhbuild/include/glib-2.0/glib/deprecated/gthread.h:104:10: note: declared here
+ GThread *g_thread_create       (GThreadFunc       func,
+          ^
+espeak.c:583:9: warning: ‘g_value_array_new’ is deprecated: Use 'GArray' instead [-Wdeprecated-declarations]
+         espeak_voices = g_value_array_new (count);
+         ^
+In file included from /home/pi/jhbuild/include/glib-2.0/glib-object.h:35:0,
+                 from /home/pi/jhbuild/include/gstreamer-1.0/gst/gstenumtypes.h:7,
+                 from /home/pi/jhbuild/include/gstreamer-1.0/gst/gst.h:31,
+                 from espeak.c:21:
+/home/pi/jhbuild/include/glib-2.0/gobject/gvaluearray.h:67:14: note: declared here
+ GValueArray* g_value_array_new      (guint   n_prealloced);
+              ^
+espeak.c:586:13: warning: ‘g_value_array_new’ is deprecated: Use 'GArray' instead [-Wdeprecated-declarations]
+             GValueArray *voice = g_value_array_new (2);
+             ^
+In file included from /home/pi/jhbuild/include/glib-2.0/glib-object.h:35:0,
+                 from /home/pi/jhbuild/include/gstreamer-1.0/gst/gstenumtypes.h:7,
+                 from /home/pi/jhbuild/include/gstreamer-1.0/gst/gst.h:31,
+                 from espeak.c:21:
+/home/pi/jhbuild/include/glib-2.0/gobject/gvaluearray.h:67:14: note: declared here
+ GValueArray* g_value_array_new      (guint   n_prealloced);
+              ^
+espeak.c:591:13: warning: ‘g_value_array_append’ is deprecated: Use 'GArray' instead [-Wdeprecated-declarations]
+             g_value_array_append (voice, &name);
+             ^
+In file included from /home/pi/jhbuild/include/glib-2.0/glib-object.h:35:0,
+                 from /home/pi/jhbuild/include/gstreamer-1.0/gst/gstenumtypes.h:7,
+                 from /home/pi/jhbuild/include/gstreamer-1.0/gst/gst.h:31,
+                 from espeak.c:21:
+/home/pi/jhbuild/include/glib-2.0/gobject/gvaluearray.h:80:14: note: declared here
+ GValueArray* g_value_array_append      (GValueArray *value_array,
+              ^
+espeak.c:600:13: warning: ‘g_value_array_append’ is deprecated: Use 'GArray' instead [-Wdeprecated-declarations]
+             g_value_array_append (voice, &lang);
+             ^
+In file included from /home/pi/jhbuild/include/glib-2.0/glib-object.h:35:0,
+                 from /home/pi/jhbuild/include/gstreamer-1.0/gst/gstenumtypes.h:7,
+                 from /home/pi/jhbuild/include/gstreamer-1.0/gst/gst.h:31,
+                 from espeak.c:21:
+/home/pi/jhbuild/include/glib-2.0/gobject/gvaluearray.h:80:14: note: declared here
+ GValueArray* g_value_array_append      (GValueArray *value_array,
+              ^
+espeak.c:606:13: warning: ‘g_value_array_append’ is deprecated: Use 'GArray' instead [-Wdeprecated-declarations]
+             g_value_array_append (voice, &dialect);
+             ^
+In file included from /home/pi/jhbuild/include/glib-2.0/glib-object.h:35:0,
+                 from /home/pi/jhbuild/include/gstreamer-1.0/gst/gstenumtypes.h:7,
+                 from /home/pi/jhbuild/include/gstreamer-1.0/gst/gst.h:31,
+                 from espeak.c:21:
+/home/pi/jhbuild/include/glib-2.0/gobject/gvaluearray.h:80:14: note: declared here
+ GValueArray* g_value_array_append      (GValueArray *value_array,
+              ^
+espeak.c:609:13: warning: ‘g_value_array_get_type’ is deprecated: Use 'GArray' instead [-Wdeprecated-declarations]
+             g_value_init (&voice_value, G_TYPE_VALUE_ARRAY);
+             ^
+In file included from /home/pi/jhbuild/include/glib-2.0/glib-object.h:35:0,
+                 from /home/pi/jhbuild/include/gstreamer-1.0/gst/gstenumtypes.h:7,
+                 from /home/pi/jhbuild/include/gstreamer-1.0/gst/gst.h:31,
+                 from espeak.c:21:
+/home/pi/jhbuild/include/glib-2.0/gobject/gvaluearray.h:60:7: note: declared here
+ GType           g_value_array_get_type       (void) G_GNUC_CONST;
+       ^
+espeak.c:611:13: warning: ‘g_value_array_append’ is deprecated: Use 'GArray' instead [-Wdeprecated-declarations]
+             g_value_array_append (espeak_voices, &voice_value);
+             ^
+In file included from /home/pi/jhbuild/include/glib-2.0/glib-object.h:35:0,
+                 from /home/pi/jhbuild/include/gstreamer-1.0/gst/gstenumtypes.h:7,
+                 from /home/pi/jhbuild/include/gstreamer-1.0/gst/gst.h:31,
+                 from espeak.c:21:
+/home/pi/jhbuild/include/glib-2.0/gobject/gvaluearray.h:80:14: note: declared here
+ GValueArray* g_value_array_append      (GValueArray *value_array,
+              ^

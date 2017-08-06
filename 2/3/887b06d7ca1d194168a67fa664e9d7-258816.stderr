@@ -1,0 +1,10 @@
+[01m[Klibavformat/tee.c:[m[K In function ‘[01m[Ktee_write_packet[m[K’:
+[01m[Klibavformat/tee.c:450:13:[m[K [01;35m[Kwarning: [m[K‘[01m[Kav_dup_packet[m[K’ is deprecated [-Wdeprecated-declarations]
+             (ret = av_dup_packet(&pkt2))< 0)
+[01;32m[K             ^[m[K
+In file included from [01m[Klibavformat/avformat.h:318:0[m[K,
+                 from [01m[Klibavformat/internal.h:25[m[K,
+                 from [01m[Klibavformat/tee.c:26[m[K:
+[01m[K./libavcodec/avcodec.h:4017:5:[m[K [01;36m[Knote: [m[Kdeclared here
+ int av_dup_packet(AVPacket *pkt);
+[01;32m[K     ^[m[K

@@ -1,0 +1,6 @@
+conftest.c:82:0: warning: "HAVE_OPUS" redefined
+ #define HAVE_OPUS /**/
+ ^
+conftest.c:81:0: note: this is the location of the previous definition
+ #define HAVE_OPUS 1
+ ^
