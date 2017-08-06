@@ -1,0 +1,3 @@
+/tmp/ffconf.G1lLQfSC.c:2:6: warning: no previous prototype for 'ff_foo' [-Wmissing-prototypes]
+ void ff_foo(void) {}
+      ^
